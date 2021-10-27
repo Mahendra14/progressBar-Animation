@@ -7,8 +7,14 @@ const animateProgressBar = () => {
     // subtracting with the height of the html element 
     //now it ranges from -7 to some 104
     const progressWidth = (scrollDistance / (scrollHeight - document.documentElement.clientHeight) ) * 100;
-    console.log(progressWidth);
+    //to get nicer values
+    const widthValue = Math.floor(progressWidth);
+    progressBar.style.width = widthValue + "%";
 
+    //this takes care of useless negative values
+    if(widthValue < 0){
+        progressBar.style.width = "0%";
+    }
 }
 
 window.addEventListener("scroll",animateProgressBar);
