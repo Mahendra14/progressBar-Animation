@@ -7,3 +7,24 @@
 body{
     font-family: "Roboto",sans-serif;
 }
+
+section{
+    margin: 10% 20%;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem 0rem;
+
+}
+
+h3{
+    font-size: 2rem;
+    padding: 2rem 0rem;
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 170%;
+}
