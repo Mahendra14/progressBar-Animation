@@ -6,6 +6,7 @@
 
 body{
     font-family: "Roboto",sans-serif;
+    overscroll-behavior-y: none ;
 }
 
 section{
@@ -39,4 +40,5 @@ p{
     background: linear-gradient(to right,#ff5f6d,#ffc371);
     /* so its always on top irrespective of anything */
     z-index: 100;
+    transition: width 0.2sec ease-out;
 }
