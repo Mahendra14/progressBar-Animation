@@ -29,3 +29,13 @@ p{
     line-height: 170%;
     color: rgb(31, 31, 31);
 }
+
+#progress-bar{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 8px;
+    width: 0%;
+    background: linear-gradient(to right,#ff5f6d,#ffc371);
+    z-index: 100;
+}
