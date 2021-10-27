@@ -42,3 +42,5 @@ p{
     z-index: 100;
     transition: width 0.2sec ease-out;
 }
+
+/*transition so it looks some placed in rather than out of place */

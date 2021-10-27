@@ -17,4 +17,5 @@ const animateProgressBar = () => {
     }
 }
 
+//adding event listener to scroll
 window.addEventListener("scroll",animateProgressBar);
